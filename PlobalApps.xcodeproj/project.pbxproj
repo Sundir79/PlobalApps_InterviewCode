@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ED9A2C55269C5FBA00280021 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9A2C54269C5FBA00280021 /* AppDelegate.swift */; };
+		ED9A2C57269C5FBA00280021 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9A2C56269C5FBA00280021 /* SceneDelegate.swift */; };
+		ED9A2C59269C5FBA00280021 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9A2C58269C5FBA00280021 /* ViewController.swift */; };
+		ED9A2C5C269C5FBA00280021 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED9A2C5A269C5FBA00280021 /* Main.storyboard */; };
+		ED9A2C5E269C5FBA00280021 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED9A2C5D269C5FBA00280021 /* Assets.xcassets */; };
+		ED9A2C61269C5FBA00280021 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED9A2C5F269C5FBA00280021 /* LaunchScreen.storyboard */; };
+		ED9A2C6C269C5FBB00280021 /* PlobalAppsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9A2C6B269C5FBB00280021 /* PlobalAppsTests.swift */; };
+		ED9A2C77269C5FBB00280021 /* PlobalAppsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9A2C76269C5FBB00280021 /* PlobalAppsUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ED9A2C68269C5FBB00280021 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED9A2C49269C5FBA00280021 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED9A2C50269C5FBA00280021;
+			remoteInfo = PlobalApps;
+		};
+		ED9A2C73269C5FBB00280021 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED9A2C49269C5FBA00280021 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED9A2C50269C5FBA00280021;
+			remoteInfo = PlobalApps;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ED9A2C51269C5FBA00280021 /* PlobalApps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlobalApps.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED9A2C54269C5FBA00280021 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ED9A2C56269C5FBA00280021 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		ED9A2C58269C5FBA00280021 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ED9A2C5B269C5FBA00280021 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ED9A2C5D269C5FBA00280021 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ED9A2C60269C5FBA00280021 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ED9A2C62269C5FBA00280021 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED9A2C67269C5FBB00280021 /* PlobalAppsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlobalAppsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED9A2C6B269C5FBB00280021 /* PlobalAppsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlobalAppsTests.swift; sourceTree = "<group>"; };
+		ED9A2C6D269C5FBB00280021 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED9A2C72269C5FBB00280021 /* PlobalAppsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlobalAppsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED9A2C76269C5FBB00280021 /* PlobalAppsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlobalAppsUITests.swift; sourceTree = "<group>"; };
+		ED9A2C78269C5FBB00280021 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ED9A2C4E269C5FBA00280021 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED9A2C64269C5FBB00280021 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED9A2C6F269C5FBB00280021 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ED9A2C48269C5FBA00280021 = {
+			isa = PBXGroup;
+			children = (
+				ED9A2C53269C5FBA00280021 /* PlobalApps */,
+				ED9A2C6A269C5FBB00280021 /* PlobalAppsTests */,
+				ED9A2C75269C5FBB00280021 /* PlobalAppsUITests */,
+				ED9A2C52269C5FBA00280021 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ED9A2C52269C5FBA00280021 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ED9A2C51269C5FBA00280021 /* PlobalApps.app */,
+				ED9A2C67269C5FBB00280021 /* PlobalAppsTests.xctest */,
+				ED9A2C72269C5FBB00280021 /* PlobalAppsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ED9A2C53269C5FBA00280021 /* PlobalApps */ = {
+			isa = PBXGroup;
+			children = (
+				ED9A2C54269C5FBA00280021 /* AppDelegate.swift */,
+				ED9A2C56269C5FBA00280021 /* SceneDelegate.swift */,
+				ED9A2C58269C5FBA00280021 /* ViewController.swift */,
+				ED9A2C5A269C5FBA00280021 /* Main.storyboard */,
+				ED9A2C5D269C5FBA00280021 /* Assets.xcassets */,
+				ED9A2C5F269C5FBA00280021 /* LaunchScreen.storyboard */,
+				ED9A2C62269C5FBA00280021 /* Info.plist */,
+			);
+			path = PlobalApps;
+			sourceTree = "<group>";
+		};
+		ED9A2C6A269C5FBB00280021 /* PlobalAppsTests */ = {
+			isa = PBXGroup;
+			children = (
+				ED9A2C6B269C5FBB00280021 /* PlobalAppsTests.swift */,
+				ED9A2C6D269C5FBB00280021 /* Info.plist */,
+			);
+			path = PlobalAppsTests;
+			sourceTree = "<group>";
+		};
+		ED9A2C75269C5FBB00280021 /* PlobalAppsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ED9A2C76269C5FBB00280021 /* PlobalAppsUITests.swift */,
+				ED9A2C78269C5FBB00280021 /* Info.plist */,
+			);
+			path = PlobalAppsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ED9A2C50269C5FBA00280021 /* PlobalApps */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED9A2C7B269C5FBB00280021 /* Build configuration list for PBXNativeTarget "PlobalApps" */;
+			buildPhases = (
+				ED9A2C4D269C5FBA00280021 /* Sources */,
+				ED9A2C4E269C5FBA00280021 /* Frameworks */,
+				ED9A2C4F269C5FBA00280021 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PlobalApps;
+			productName = PlobalApps;
+			productReference = ED9A2C51269C5FBA00280021 /* PlobalApps.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ED9A2C66269C5FBB00280021 /* PlobalAppsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED9A2C7E269C5FBB00280021 /* Build configuration list for PBXNativeTarget "PlobalAppsTests" */;
+			buildPhases = (
+				ED9A2C63269C5FBB00280021 /* Sources */,
+				ED9A2C64269C5FBB00280021 /* Frameworks */,
+				ED9A2C65269C5FBB00280021 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED9A2C69269C5FBB00280021 /* PBXTargetDependency */,
+			);
+			name = PlobalAppsTests;
+			productName = PlobalAppsTests;
+			productReference = ED9A2C67269C5FBB00280021 /* PlobalAppsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ED9A2C71269C5FBB00280021 /* PlobalAppsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED9A2C81269C5FBB00280021 /* Build configuration list for PBXNativeTarget "PlobalAppsUITests" */;
+			buildPhases = (
+				ED9A2C6E269C5FBB00280021 /* Sources */,
+				ED9A2C6F269C5FBB00280021 /* Frameworks */,
+				ED9A2C70269C5FBB00280021 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED9A2C74269C5FBB00280021 /* PBXTargetDependency */,
+			);
+			name = PlobalAppsUITests;
+			productName = PlobalAppsUITests;
+			productReference = ED9A2C72269C5FBB00280021 /* PlobalAppsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ED9A2C49269C5FBA00280021 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					ED9A2C50269C5FBA00280021 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					ED9A2C66269C5FBB00280021 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = ED9A2C50269C5FBA00280021;
+					};
+					ED9A2C71269C5FBB00280021 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = ED9A2C50269C5FBA00280021;
+					};
+				};
+			};
+			buildConfigurationList = ED9A2C4C269C5FBA00280021 /* Build configuration list for PBXProject "PlobalApps" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ED9A2C48269C5FBA00280021;
+			productRefGroup = ED9A2C52269C5FBA00280021 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ED9A2C50269C5FBA00280021 /* PlobalApps */,
+				ED9A2C66269C5FBB00280021 /* PlobalAppsTests */,
+				ED9A2C71269C5FBB00280021 /* PlobalAppsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ED9A2C4F269C5FBA00280021 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED9A2C61269C5FBA00280021 /* LaunchScreen.storyboard in Resources */,
+				ED9A2C5E269C5FBA00280021 /* Assets.xcassets in Resources */,
+				ED9A2C5C269C5FBA00280021 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED9A2C65269C5FBB00280021 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED9A2C70269C5FBB00280021 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ED9A2C4D269C5FBA00280021 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED9A2C59269C5FBA00280021 /* ViewController.swift in Sources */,
+				ED9A2C55269C5FBA00280021 /* AppDelegate.swift in Sources */,
+				ED9A2C57269C5FBA00280021 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED9A2C63269C5FBB00280021 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED9A2C6C269C5FBB00280021 /* PlobalAppsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED9A2C6E269C5FBB00280021 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED9A2C77269C5FBB00280021 /* PlobalAppsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ED9A2C69269C5FBB00280021 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED9A2C50269C5FBA00280021 /* PlobalApps */;
+			targetProxy = ED9A2C68269C5FBB00280021 /* PBXContainerItemProxy */;
+		};
+		ED9A2C74269C5FBB00280021 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED9A2C50269C5FBA00280021 /* PlobalApps */;
+			targetProxy = ED9A2C73269C5FBB00280021 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ED9A2C5A269C5FBA00280021 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED9A2C5B269C5FBA00280021 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ED9A2C5F269C5FBA00280021 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED9A2C60269C5FBA00280021 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ED9A2C79269C5FBB00280021 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ED9A2C7A269C5FBB00280021 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ED9A2C7C269C5FBB00280021 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JC89GD8MJL;
+				INFOPLIST_FILE = PlobalApps/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Sundir.PlobalApps;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ED9A2C7D269C5FBB00280021 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JC89GD8MJL;
+				INFOPLIST_FILE = PlobalApps/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Sundir.PlobalApps;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		ED9A2C7F269C5FBB00280021 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JC89GD8MJL;
+				INFOPLIST_FILE = PlobalAppsTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Sundir.PlobalAppsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PlobalApps.app/PlobalApps";
+			};
+			name = Debug;
+		};
+		ED9A2C80269C5FBB00280021 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JC89GD8MJL;
+				INFOPLIST_FILE = PlobalAppsTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Sundir.PlobalAppsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PlobalApps.app/PlobalApps";
+			};
+			name = Release;
+		};
+		ED9A2C82269C5FBB00280021 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JC89GD8MJL;
+				INFOPLIST_FILE = PlobalAppsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Sundir.PlobalAppsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PlobalApps;
+			};
+			name = Debug;
+		};
+		ED9A2C83269C5FBB00280021 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JC89GD8MJL;
+				INFOPLIST_FILE = PlobalAppsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Sundir.PlobalAppsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PlobalApps;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ED9A2C4C269C5FBA00280021 /* Build configuration list for PBXProject "PlobalApps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED9A2C79269C5FBB00280021 /* Debug */,
+				ED9A2C7A269C5FBB00280021 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED9A2C7B269C5FBB00280021 /* Build configuration list for PBXNativeTarget "PlobalApps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED9A2C7C269C5FBB00280021 /* Debug */,
+				ED9A2C7D269C5FBB00280021 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED9A2C7E269C5FBB00280021 /* Build configuration list for PBXNativeTarget "PlobalAppsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED9A2C7F269C5FBB00280021 /* Debug */,
+				ED9A2C80269C5FBB00280021 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED9A2C81269C5FBB00280021 /* Build configuration list for PBXNativeTarget "PlobalAppsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED9A2C82269C5FBB00280021 /* Debug */,
+				ED9A2C83269C5FBB00280021 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ED9A2C49269C5FBA00280021 /* Project object */;
+}
